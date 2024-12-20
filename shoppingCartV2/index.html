@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alışveriş Sepeti</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Tatlılar</h1>
+    </header>
+    <main>
+      <button id="cart-btn" type="button" class="btn">
+        <span id="show-hide-cart">Sepeti</span> Göster
+      </button>
+      <div id="cart-container">
+        <button class="btn" id="clear-cart-btn">Sepeti Temizle</button>
+        <div id="products-container"></div>
+        <p>Ürün adedi: <span id="total-items">0</span></p>
+        <p>Ürünler Toplam: <span id="subtotal">0 ₺</span></p>
+        <p>KDV: <span id="taxes">0 ₺</span></p>
+        <p>Toplam: <span id="total">0 ₺</span></p>
+      </div>
+      <div id="dessert-card-container"></div>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
