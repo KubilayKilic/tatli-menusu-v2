@@ -1,7 +1,7 @@
 // HTML'den gerekli elementleri al
-const cartContainer = document.getElementById("cart-container"); // Sepetin bulunduğu konteynır
-const productsContainer = document.getElementById("products-container"); // Ürünlerin listelendiği konteynır
-const dessertCards = document.getElementById("dessert-card-container"); // Tatlı kartlarının bulunduğu konteynır
+const cartContainer = document.getElementById("cart-container"); // Sepetin bulunduğu konteyner
+const productsContainer = document.getElementById("products-container"); // Ürünlerin listelendiği konteyner
+const dessertCards = document.getElementById("dessert-card-container"); // Tatlı kartlarının bulunduğu konteyner
 const cartBtn = document.getElementById("cart-btn"); // Sepet düğmesi
 const clearCartBtn = document.getElementById("clear-cart-btn"); // Sepeti temizle düğmesi
 const totalNumberOfItems = document.getElementById("total-items"); // Toplam öğe sayısı
